@@ -1,1 +1,67 @@
 /*  your css code here. If applicable */
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color: #f6f6f6;
+	height:100vh;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+img{
+	width:100%;
+}
+
+.facebook{
+
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	padding:30px;
+
+}
+
+#left{
+	
+	margin-top:70px;
+	
+}
+
+
+form{
+
+	display:flex;
+	flex-direction:column;
+	gap:10px;
+	background-color:white;
+	width:300px;
+	padding:20px;
+	border-radius:5px;
+	box-shadow: 0 0 10px #ccc;
+}
+
+input{
+	border: 1ps solid #ccc;
+	border-radius:5px;
+	padding:10px;
+}
+
+button{
+
+	background-color: #1877f2;
+	border-radius:5px;
+	padding:10px 20px;
+}
+
+a{
+	text-decoration:none;
+	color: #1877f2;
+}
+
+.signup{
+	background-color: #42b72a;
+}
